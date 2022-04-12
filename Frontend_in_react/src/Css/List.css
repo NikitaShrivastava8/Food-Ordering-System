@@ -1,0 +1,148 @@
+:root{
+    --orange:#ff7800;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+         
+    }
+    header{
+        background-color:#fff;
+     
+      }
+      .container
+      {
+          width:95%;
+          background-color:#fff ;
+          margin: 0 auto;
+          max-width:1200px;
+          margin-top: 10px;
+      }
+      .container-flex
+      {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 10px;
+      }
+     .logo
+      {
+         
+          color:#ff7800;
+         
+          border-color: var(--black);
+          margin-top: 10px;
+          transform: scale(1.5);
+        }
+      .text
+      {
+          color:black;
+          font-size: 1.4em;
+          font-family: 'Poppins', sans-serif;
+      }
+    
+      .list
+      {
+          display: flex;
+          margin-top: 10px;
+      }
+      .listItem
+      {
+          margin-left: 2em;
+          color: var(--black) ;
+          text-decoration: none;
+          font-size: 1.3em;
+          font-family: 'Poppins', sans-serif;
+          margin-top: 10px;
+      }
+      .activeItem
+      {
+          color: #ff7800;
+      }
+      .icons
+      {
+          display: flex;
+          margin-top: 10px;
+      }
+      .icon
+      {
+        margin-left: 1em;
+        color: var(--black) ;
+        text-decoration: none;
+        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+       
+    }
+    .iconnew
+    {
+      margin-left: 1em;
+      color: var(--black) ;
+      text-decoration: none;
+      font-size: 1em;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 10px;
+      background: url(../assets/logo.jpg) no-repeat;
+      
+     
+  }
+    
+   .activeItem
+    {
+        color: #ff7800;
+    }
+   
+
+      /* media queries */
+      @media screen and (max-width:1100px) 
+      {
+        .icon
+        {
+           
+            margin-right: 1em;
+        }
+
+      }
+      @media screen and (max-width:768px) 
+      {
+     .html
+      {
+              font-size: 13px;
+      }
+      .container-flex
+      {
+         flex-direction: column;
+      }
+      .logo
+      {
+          width: 150px;
+      }
+      .icon
+      {
+          margin-top: 1em;
+          margin-bottom: 1.5em;
+      }
+    }
+    @media screen and (max-width:568) 
+    {
+        .html
+      {
+              font-size: 11px;
+      }
+      .list{
+          flex-direction: column;
+      }
+      .listItem
+      {
+          margin-top: .2em;
+      }
+      .logo
+      {
+          width: 100px;
+      }
+
+    }
+    
+

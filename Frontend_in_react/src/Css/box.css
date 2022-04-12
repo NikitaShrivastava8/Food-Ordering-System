@@ -1,0 +1,111 @@
+.features-boxed {
+    color: #1233078c;
+    background-color: var(--bs-gray-dark);
+}
+
+.features-boxed p {
+    color: #d30bee;
+}
+
+.features-boxed h2 {
+    font-weight: normal;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #d30bee;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+}
+
+@media (max-width: 767px) {
+    .features-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 2em;
+    }
+}
+
+.features-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.features-boxed .intro p {
+    margin-bottom: 0;
+}
+
+.features-boxed .features {
+    padding: 50px 0;
+}
+
+.features-boxed .item {
+    text-align: center;
+}
+
+.features-boxed .item .box {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(211, 191, 165, 0.26);
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.features-boxed .item .pizza-img {
+    /*font-size: 60px;*/
+    /*color: #1485ee;*/
+    margin-top: 20px;
+    margin-bottom: 7px;
+    height: 250px;
+}
+
+.features-boxed .item .name {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.features-boxed .item .title {
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: black;
+}
+.features-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1.8em;
+    
+    color: #1233078c;
+}
+
+.fas.fa-shopping-basket {
+    font-size: 5em;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.btn-outline-dark d-flex align-items-end
+{
+      align-content: center;
+}
+
+.btnnew
+{
+      align-content: center;
+    
+      align-self:center;
+      margin-left: 69em;
+      color: var(--black) ;
+      text-decoration: none;
+      font-size: 1em;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 20px;
+      margin-right: 0em;
+}
+
+
+
